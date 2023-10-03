@@ -116,7 +116,7 @@ ul{
 .main_content_title{     
     padding: 1.5em;
     text-align: center;    
-    letter-spacing: .1rem;
+    letter-spacing: .2rem;
     font-size: 1.5em;
     color: black;
     border-radius: 8px;  
@@ -132,9 +132,7 @@ ul{
     display: flex;     
     padding-top: 1em;
     padding-bottom: 1em;
-
 }    
-
 
 .main_content_imag{
     width: 70vw;
@@ -151,11 +149,9 @@ ul{
     letter-spacing: .0.6em;
     text-transform: none;
     padding-top: 1em;
-       
 }  
 
- 
-@media screen and (max-width: 48em) {    
+ @media screen and (max-width: 48em) {    
 
     .main_content_title{      
     max-width: 30vw;
@@ -183,7 +179,6 @@ ul{
 
     }
 
-
    .paragrafo{
     height: 180vh;
     font-size: 0.6em;
@@ -196,11 +191,10 @@ ul{
     padding-bottom: 1em;
       
     }
-
 }
 
 .maxwhidt{
-    margin-top: 3em;
+    margin-top: 1em;
     max-width: 70em;
     padding-right: 2.5em;
     padding-left: 2.5em;
@@ -246,8 +240,6 @@ ul{
     gap: 1em;  
     text-align: center;
     display: block;
-    
-     
 }
 
 .paragrafo1{
@@ -258,9 +250,7 @@ ul{
     letter-spacing: .0.6em;
 }
 
-
 @media screen and (max-width: 48em){    
-
     .maxwhidt{
         max-width: 80em;
         gap: 2rem;
@@ -281,15 +271,14 @@ ul{
     min-width: 35vw;   
     margin: 0;   
     padding-top: 2em;
-    margin-right: 8em;
-    margin-left: 8em; 
-    margin-bottom: 5em;    
+    margin-right: 7.5em;
+    margin-left: 7.5em; 
+    margin-bottom: 2em;    
     gap: 1em;
-       
+    align-items: left;   
 }
 
 .main_contente_titulo{
-   
     border-radius: 8px;      
     text-align: center;
     font-size: 2em;
@@ -302,18 +291,14 @@ ul{
 .card {
     border: 2px;
     padding-top: 2em;
-       
 }
 
 .col col-12 col-6{   
    min-width: 28vw;
-    
-    
 }
 
 .videos{
     display: none;
-   
 }
 
 .paragrafo2 {
@@ -325,28 +310,26 @@ ul{
     align-items: center;
     border: 2px solid red;
     display: none;
-    
+}
+
+.main_imag{
+    width: 100%;    
+    gap: 1em;  
+    padding-top: 1em;
+    text-align: center;
+    display: block;
 }
 
 .links {
-     max-height: 90vh;    
      font-size: 0.3em;
      letter-spacing: 0.2em;
-     align-items: center;    
-     text-transform: none;
-      
+     align-items: left;    
+     padding-top: 2em;
+     margin-right: 1em;
+     margin-left: 1em;
+     gap: 1em;
+     display: block;
 }
-
-.links_p{
-    padding-bottom: 3em;;
-    max-width: 30vw;
-    border: 2px solid red;
-    margin-right:80em;     
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 
 .contente1{
     display: flex;
@@ -355,8 +338,19 @@ ul{
     margin-left: 5em;
 }
 
-
 @media screen and (min-width: 48em){       
+
+    .main_contente{ 
+        background-color: var(--cor-site);
+        min-width: 35vw;   
+        margin: 0;   
+        padding-top: 2em;
+        margin-right: 8em;
+        margin-left: 8em; 
+        margin-bottom: 5em;    
+        gap: 1em;           
+    }
+
     .card{    
     margin: 0;   
     padding-top: 2em;
@@ -370,7 +364,6 @@ ul{
     object-fit: cover;
     object-position: center;
    }
-
     .videos{
     display: flex;
     flex-wrap: wrap;   
@@ -387,7 +380,6 @@ ul{
     flex-grow: 1;
     display: flex;
    }
-
 
    .paragrafo2 p {
     margin: 0 0 0em;

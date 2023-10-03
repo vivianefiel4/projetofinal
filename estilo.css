@@ -378,11 +378,9 @@ ul{
    }
 
    .card {
-    
-    flex-direction: row;
+     flex-direction: row;
     justify-content: center;
     }
-
 
    .paragrafo2{   
     border: 2x solid red;
@@ -401,17 +399,18 @@ ul{
     line-height: 1.2em;   
     }
 
+    .main_imag{
+     display: none;
+     width: 70%;   
+     gap: 1em;  
+     padding-top: 2em;
+    text-align: center;
+    }
+   
     .links{
-        font-size: 1em;
-        letter-spacing: 0.2em;     
-        text-transform: none;
-        text-align: left;
-        gap:1em;
-        line-height: 1.2em;   
-        display: none;
+     display: none;
     }
 }
-
 
 .maxwhidt2{
     width: 20vw;
@@ -436,8 +435,7 @@ ul{
     padding-top: 2em;   
     color: black;
     letter-spacing: .1rem;
-    font-size: 1.5eem;
-
+    font-size: 0.8em;
 }
 
 .main_imagem{
@@ -449,8 +447,7 @@ ul{
 }
 
 .video{
-   display: none;
-   
+   display: none;   
 }  
 
 .paragrafo3{
@@ -460,7 +457,6 @@ ul{
     letter-spacing: .0.5em;
     text-align: center;
     padding-bottom: 2em;
-   
 }
     
 @media screen and (min-width: 48em){ 

@@ -329,6 +329,15 @@ ul{
      margin-left: 1em;
      gap: 1em;
      display: block;
+     font-weight: bold;
+     padding-bottom: 0;
+}
+
+p{
+    padding: 1em;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+       
 }
 
 .contente1{

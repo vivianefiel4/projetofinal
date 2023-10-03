@@ -453,11 +453,6 @@ ul{
    
 }  
 
-p1{
-    display: none;
-
-}
-
 .paragrafo3{
     display: flex;
     color: black;
@@ -476,15 +471,6 @@ p1{
     padding-left: 12em;        
     padding-bottom: 2em;   
     }
-
-   p1{
-    display: flex;
-    font-size: 0.8em;
-    align-items: center;
-    padding-left: 18em;
-    letter-spacing: .0.2em;
-    padding-bottom: 2em;
-    }  
 
     .main_imagem{
     display: none;
